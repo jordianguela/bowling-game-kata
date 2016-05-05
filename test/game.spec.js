@@ -2,20 +2,27 @@ var Game = require('../src/Game');
 
 describe("Bowling Game Kata", function() {
 
-  it("final score is 0 when all rolls are missed", function() {
-    var game = new Game();
+  var game;
+  beforeEach(function() {
+    game = new Game();
+  });
+
+  var rollMany = function (scoredPins) {
     for (i = 0; i < 20; i++) { 
-      game.roll(0);
+      game.roll(scoredPins);
     }
+  };
+
+  it("final score is 0 when all rolls are missed", function() {
+    rollMany(0);
     expect(0).toBe(game.score());
   });
 
   it("final score is 20 when all rolls hit one pin", function() {
-    var game = new Game();
-    for (i = 0; i < 20; i++) { 
-      game.roll(1);
-    }
+    rollMany(1);
     expect(20).toBe(game.score());
-  });  
+  }); 
+
+
 
 });
