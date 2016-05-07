@@ -1,14 +1,13 @@
-function Game() {
-};
+class Game {
+  roll(pins) {
+    score += pins;
+  }
+
+  score() {
+    return score;
+  }
+}
 
 var score = 0;
 
-Game.prototype.roll = function (pins) {
-  score += pins;
-};
-
-Game.prototype.score = function () {
-  return score;
-};
-
-module.exports = Game;
+export default Game;
