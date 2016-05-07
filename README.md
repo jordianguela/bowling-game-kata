@@ -26,5 +26,9 @@ TBD
 ### Conclusions
 TBD
 
+### More info about ES6
+A detailed overview of ECMAScript 2015 features. Based on Luke Hoban's es6features repo:
+https://babeljs.io/docs/learn-es2015/
+
 
 
