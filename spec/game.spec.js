@@ -1,4 +1,5 @@
-import Game from '../src/Game';
+// import Game from '../src/Game'; // not working
+let Game = require('../src/Game');
 
 describe("Bowling Game Kata", () => {
 

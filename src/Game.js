@@ -10,4 +10,5 @@ class Game {
 
 var score = 0;
 
-export default Game;
+// export default Game;
+module.exports = Game;
