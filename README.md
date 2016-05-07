@@ -4,7 +4,7 @@ http://butunclebob.com/ArticleS.UncleBob.TheBowlingGameKata
 slides: http://butunclebob.com/files/downloads/Bowling%20Game%20Kata.ppt
 
 ### Tools used
-- NodeJS
+- NodeJS v6
 - jasmine : testing lib
 - istanbul : test coverage lib
 
@@ -12,13 +12,9 @@ slides: http://butunclebob.com/files/downloads/Bowling%20Game%20Kata.ppt
 
 	npm install
 
-### Execute tests
-Two scripts are provided to help you to run the tests:
-
-**./run-tests.sh** : automatically execute the tests every time you make a change and save a file
-
-**./coverage.sh** : informs you about the current code coverage that you have with your tests
-
+### Execute tests + coverage
+  
+  npm test
 
 ### Post mortem analysis
 TBD
