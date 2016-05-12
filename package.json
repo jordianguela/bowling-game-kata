@@ -1,9 +1,16 @@
 {
   "name": "bowling-game-kata",
   "version": "1.0.0",
-  "main": "src/app.js",
+  "main": "src/Game.js",
   "author": "Jordi Anguela",
-  "license": "GPLv3",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jordianguela/bowling-game-kata"
+  },
+  "keywords": [
+    "kata", "javascript", "es6"
+  ],
+  "license": "GPL-3.0",
   "dependencies": {},
   "devDependencies": {
     "babel-core": "^6.8.0",
